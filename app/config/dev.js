@@ -1,8 +1,8 @@
 module.exports = {
   app: {
-    title: 'node https',
-    description: 'node https',
-    keywords: 'https'
+    title: 'express-home',
+    description: 'express-home',
+    keywords: 'express-home'
   },
   hosts: '127.0.0.1',
   port: 8200,

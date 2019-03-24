@@ -9,7 +9,7 @@ const cookieParser = require('cookie-parser')
 
 module.exports = (app) => {
   // WebSocket
-  // socket(app)
+  socket(app)
   // 静态资源
   app.use(express.static(path.resolve('./app/public')))
   // cookies 解析
@@ -18,7 +18,7 @@ module.exports = (app) => {
   app.use(bodyParser.json())
   app.use(bodyParser.urlencoded({ extended: true }));
   // 连接 mongodb
-  // mongo()
+  mongo()
   // session 中间件
   app.use(session)
   //记录日志
