@@ -32,12 +32,5 @@ module.exports = {
   token: {
     secret: 'secret',
     expiresIn: 60 * 60 * 24
-  },
-  wx: {
-    jscode2session: 'https://api.weixin.qq.com/sns/jscode2session',
-    secret: 'a2adc0e01cc27a8cbb5b6f6e1a6281b8',
-    appid: 'wx868a41a9a866eb7c',
-    js_code: 'js_code',
-    grant_type	: 'authorization_code'
   }
 };
