@@ -1,5 +1,5 @@
-const debug = require('debug')('app:authToken');
-const token = require('../../utils/token');
+const debug = require('debug')('app:authToken')
+const token = require(path.resolve('./app/utils/token'))
 
 module.exports = async (req, res, next) => {
   debug('req.session', req.session);

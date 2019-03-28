@@ -1,6 +1,6 @@
 const path = require('path')
-const userModel = require('../models/user')
-const infoModel = require('../models/info')
+const userModel = require(path.resolve('./app/models/user'))
+const infoModel = require(path.resolve('./app/models/info'))
 const debug = require('debug')('app:defaultCTRL')
 
 module.exports = {

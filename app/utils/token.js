@@ -1,7 +1,7 @@
-const path = require('path');
-const { client } = require('../middleware/redis');
-const config = require(path.resolve('./app/config'));
-const debug = require('debug')('app:utils-token');
+const path = require('path')
+const { client } = require(path.resolve('./app/middleware/redis'))
+const config = require(path.resolve('./app/config'))
+const debug = require('debug')('app:utils-token')
 
 module.exports = {
   getToken: (token) => {
