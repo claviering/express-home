@@ -1,15 +1,12 @@
 const path = require('path')
 const logger = require('./log')
 const mongo = require('./mongo')
-const socket = require('./socket')
 const express = require('express')
 const session = require('./session')
 const bodyParser = require('body-parser')
 const cookieParser = require('cookie-parser')
 
 module.exports = (app) => {
-  // WebSocket
-  socket(app)
   // 静态资源
   app.use(express.static(path.resolve('./app/public')))
   // cookies 解析
