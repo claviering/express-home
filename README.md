@@ -5,3 +5,7 @@
 node >= 10
 
 npm i && npm run dev
+
+## HTTPS
+
+`app/env` 包含根证书和服务器证书
