@@ -5,7 +5,10 @@ const debug = require('debug')('app:defaultCTRL')
 
 module.exports = {
   default: (req, res) => {
-    res.sendFile(path.resolve('./app/public/index.html'))
+    res.send('hello world')
+  },
+  socket: (req, res) => {
+    res.sendFile(path.resolve('./app/public/socket.html'))
   },
   addInfo: async (req, res) => {
     let date = new Date()

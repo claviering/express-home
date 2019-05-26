@@ -1,3 +1,4 @@
+const path = require('path')
 const debug = require('debug')('app:authToken')
 const token = require(path.resolve('./app/utils/token'))
 
