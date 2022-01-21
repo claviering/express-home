@@ -15,7 +15,7 @@
     "express": "^4.16.4",
     "express-session": "^1.15.6",
     "ip": "^1.1.5",
-    "log4js": "^4.0.2",
+    "log4js": "^6.4.0",
     "mongoose": "^5.4.17",
     "redis": "^2.8.0",
     "socket.io": "^2.2.0"
